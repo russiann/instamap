@@ -21,7 +21,7 @@ import Signin from './scenes/Signin';
 const Root = () => (
   <Router>
     <div>
-      <Route exact path="/" component={Signin} />
+      <Route exact path="/signin" component={Signin} />
     </div>
   </Router>
 );

@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
+import Container from './components/Container';
+import SigninButton from './components/SigninButton';
+
 const Signin = () => (
-  <div>
-    <h1> Signin Page </h1>
-  </div>
+  <Container>
+    <SigninButton title="Entrar com o Instagram" />
+  </Container>
 );
 
 export default Signin;
